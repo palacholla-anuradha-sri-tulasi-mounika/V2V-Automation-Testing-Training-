@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration form
+        </title>
+        <style>
+            .card{
+            background-image: url(https://www.bing.com/th/id/OIP.igCIGYQwD6bV5TQw5Qn78wHaE7?w=249&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2);
+            width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            text-align: center;
+            border-radius: 30px;
+            height: 70vh;
+            background-size: cover;
+            background-clip: content-box;
+            backdrop-filter: initial;
+            background-position-y: center;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+        <h1><u><i>Registration Form</i> </u></h1>
+        <form>
+        FirstName:<input type="text" name ="FirstName">
+        SecondName:<input type="text" name="SecondName"><br><br>
+        Email:<span style="color: black">*</span><input type = "email" name = "email" required >
+        Gender:
+        <input type ="radio" name="gender" value="male">male
+        <input type ="radio" name="gender" value="female">female <br><br> 
+        <label for="dob">Date Of Birth</label>
+         <input type="Date"id="dob" name="dob"><br><br>
+        <lable for="age">Age<span style="color: red"*</span></lable>
+
+        <label for="mobile">Contact:</label>
+        <input type="text" Country code size="2" placeholder="country code">
+            <input type="text" id="mobile" name="mobile" maxlength="10" > 
+                    <label for="country">Country:</label>
+        <select id="country" name="country" >
+            <option value="">Select your country</option>
+            <option value="USA">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">United Kingdom</option>
+            <option value="India">India</option>
+            <option value="Australia">Australia</option>
+            <option value="Germany">Germany</option>
+            <option value="France">France</option>
+            <option value="Japan">Japan</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Brazil">Brazil</option>
+        </select><br><br>
+        Department:
+        <input type="checkbox">CSE
+        <input type="checkbox">ECE
+        <input type="checkbox">ME
+        <input type="checkbox">EEE
+        <input type="checkbox">CE<br><br>
+
+
+        UserName:<input type="text" name ="username" >
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+         <button type="submit">submit</button> 
+         <button type="submit">Login</button> <br><br>
+
+         terms condition:
+        <input type =  "checkbox" name="*terms condition" required> terms
+        <input type =  "checkbox" name="*terms condition" required> privacy
+
+        </form>
+        </div>
+
+        
+
+    </body>
+</html>
